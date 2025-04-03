@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #dde1e7;
+}
+
+button {
+  width: 150px;
+  height: 250px;
+  border: none;
+  border-radius: 10px;
+  font-size: 70px;
+  background: #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+button:active {
+  box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
