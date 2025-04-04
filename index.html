@@ -1,22 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="website icon" type="jpg" href="download.jpg">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/jpg" href="download.jpg" />
   <title>morse code</title>
 </head>
 <body>
+  
+  <div class="container">
+    <span id="morse"></span>
+    
+    <div class="button-group">
+      <button id="ddubtn">·</button>
+      <button id="dduubtn">–</button>
+    </div>
+    <div>
+      <button id="resetbtn">Reset</button>
+    </div>
+  </div>
 
-  <button id="ddubtn">·</button>
-  <button id="dduubtn">–</button>
-
-
-  <audio id="ddu" src="https://minho-yu110817.github.io/Morse-code/ddu.wav"></audio>
-  <audio id="dduu" src="https://minho-yu110817.github.io/Morse-code/dduu.wav"></audio>
-
+  <audio id="ddu" src="ddu.wav"></audio>
+  <audio id="dduu" src="dduu.wav"></audio>
   <script src="script.js"></script>
 </body>
 </html>
